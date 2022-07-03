@@ -1,0 +1,250 @@
+body,
+html {
+  /* height: 5000px; */
+  overflow-x: hidden;
+}
+.under {
+  width: 100%;
+  height: 64px;
+  background-color: lightcoral;
+}
+.main-nav {
+  background-color: whitesmoke !important;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.logo {
+  font-size: 25px;
+  margin: 0 30px;
+  font-weight: 600;
+  color: lightgray;
+}
+.first-div {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  padding: 50px 0;
+  background-color: #c8e7df;
+}
+.main-row {
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+.main-col1 {
+  /* border: 1px solid black; */
+  padding: 60px 20px;
+  background-color: white;
+  margin: 0%;
+}
+.main-col2 {
+  border: 1px solid black;
+  padding: none;
+  background-color: black;
+}
+.demo {
+  font-weight: 600;
+  color: gray;
+}
+.demo2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn1 {
+  border: none;
+  background-color: #2e9278;
+  padding: 10px 20px;
+  width: 40%;
+  color: white;
+  border-radius: 12px;
+}
+.main-col3 {
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: none;
+}
+.main-head {
+  font-size: 50px;
+  color: #2e9278;
+}
+.main-head2 {
+  font-size: 50px;
+  color: #2e9278;
+}
+.card-title {
+  color: #2e9278;
+  font-weight: 700;
+}
+.card-text {
+  font-weight: 600;
+  color: gray;
+}
+.btn2 {
+  border: none;
+  background-color: #2e9278;
+  padding: 10px 20px;
+  width: 60%;
+  color: white;
+  border-radius: 12px;
+}
+.main-card {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+}
+.main-card2 {
+  width: 100%;
+}
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+.main-col5 {
+  /* border: 1px solid black; */
+  /* height: 100px; */
+}
+.card2 {
+  /* border: 1px solid black; */
+  background-color: #FAECDF;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.card3 {
+  /* border: 1px solid black; */
+  background-color: #c8e7df;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.id1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: darkgoldenrod;
+}
+.id2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.id3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.about-main {
+  width: 100%;
+  /* height: 300px; */
+  /* border: 1px solid black; */
+  position: relative;
+  background-color: #FAECDF;
+}
+.circle-img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #5dc2a7;
+  border-radius: 100px;
+  background-image: url(images/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-head3 {
+  font-size: 28px;
+  color: #2e9278;
+  font-weight: 500;
+}
+.btn3 {
+  border: none;
+  background-color: #2e9278;
+  padding: 10px 20px;
+  width: 70%;
+  color: white;
+  border-radius: 12px;
+}
+.mid-div {
+  width: 70%;
+  height: auto;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  bottom: -190px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+}
+.btn4 {
+    border: none;
+    background-color: #2e9278;
+    padding: 10px 20px;
+    width: 18%;
+    color: white;
+    border-radius: 3px;
+    margin: 10px;
+  }
+
+
+  @media screen and (min-width: 300px) and (max-width: 900px) {
+    .mid-div{
+        bottom: -250px;
+    }
+    .btn4{
+        width: 35%;
+    }
+}
+
+
+.footer{
+    width: 100%;
+    /* height: 500px; */
+    /* border: 1px solid black; */
+    padding-top: 300px;
+    padding-bottom: 50px;
+    background-color: #c8e7df;
+}
+.main-head4 {
+    font-size: 25px;
+    color: #2e9278;
+    font-weight: 500;
+  }
+  .main-col6 {
+    padding: 15px;
+  }
+  .foot-in{
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  .btn5 {
+    border: none;
+    background-color: #2e9278;
+    padding: 10px 20px;
+    width: 90%;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    text-align: center;
+    padding: 7px;
+    background-color: #2e9278;
+    display: inline-block;
+    margin: 5px;
+  }
+  .end-info{
+    width: 100%;
+    /* height: 100px; */
+    background-color: #313131;
+    text-align: center;
+    padding: 30px;
+  }
